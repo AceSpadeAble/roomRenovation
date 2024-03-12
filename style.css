@@ -1,33 +1,77 @@
 body {
-    background-color: green;
-  }
+  background-color: green;
+}
+
+main {
+  padding: 25px;
   
-  main {
-    padding: 25px;
-  }
-  
-  #topBar {
-    height: 25px;
-    background: brown;
-  }
-  
-  #doubleBox {
-    padding: 10px;
-    width: 200px;
-  }
-  
-  .redBox {
-    margin: 40px;
-    width: 100px;
-    height: 100px;
-    background: red;
-    rotate: 45deg;
-  }
-  
-  #boxLeft {
-    align: left;
-  }
-  
-  #boxRight {
-    align: right;
-  }
+}
+
+.item {
+  width: 300px;
+  height: 250px;
+  margin: 15px;
+  border: 3px solid;
+}
+
+#topBar {
+  height: 25px;
+  background: brown;
+}
+
+#doubleBox {
+  padding: 10px;
+  width: 200px;
+}
+
+.redBox {
+  width: 95px;
+  height: 95px;
+  background: red;
+  border: 3px solid;
+  rotate: 45deg;
+}
+
+#boxLeft {
+  float: left;
+}
+
+#boxRight {
+  float: right;
+}
+
+#doubleLineCircle {
+  height: 150px;
+}
+
+.line {
+  margin: 15px;
+  width: 100px;
+  height: 10px;
+  border: 3px solid;
+  background: blue;
+}
+
+.subItem {
+  display: inline-block;
+}
+
+#circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border: 3px solid;
+  background: cyan;
+}
+
+#abcBox {
+  width: 200px;
+  height: 500px;
+  background: purple;
+}
+
+.item p {
+  text-align: center;
+  font-family: Impact;
+  font-size: 30px;
+}
