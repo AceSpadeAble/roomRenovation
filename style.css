@@ -1,0 +1,33 @@
+body {
+    background-color: green;
+  }
+  
+  main {
+    padding: 25px;
+  }
+  
+  #topBar {
+    height: 25px;
+    background: brown;
+  }
+  
+  #doubleBox {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .redBox {
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    rotate: 45deg;
+  }
+  
+  #boxLeft {
+    align: left;
+  }
+  
+  #boxRight {
+    align: right;
+  }
