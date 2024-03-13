@@ -13,7 +13,6 @@ main {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   flex-direction: column;
 }
 
 .item {
@@ -31,7 +30,14 @@ main {
   padding: 0.75vh;
 }
 
-/*Try flex later*/
+.flexContainer {
+  height: 45vh;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .redBox {
   width: 9.5vh;
   height: 9.5vh;
@@ -74,7 +80,7 @@ main {
 }
 
 #abcBox {
-  width: 18vh;
+  width: 17.5vh;
   height: 40vh;
   margin-left: 4vh;
   border: 0.25vh solid;
@@ -88,12 +94,25 @@ main {
 }
 
 @media screen and (min-width: 583px) and (max-width: 900px) {
+  .flexContainer {
+    flex-flow: column wrap;
+    align-content: flex-start;
+    width: 50%;
+  }
+
   #abcBox {
     background: red;
   }
 }
 
 @media screen and (max-width: 582px) {
+  main {
+    flex-flow: column wrap;
+  }
+  .flexContainer {
+    flex-flow: column wrap;
+    align-content: flex-start;
+  }
   #abcBox {
     background: blue;
   }
