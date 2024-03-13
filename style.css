@@ -26,14 +26,14 @@ main {
 }
 
 #doubleBox {
-  width: 25vh;
+  width: 35vh;
   padding: 0.5vh;
 }
 
 /*Try flex later*/
 .redBox {
-  width: 12vh;
-  height: 12vh;
+  width: 17vh;
+  height: 17vh;
   background: red;
   border: 0.5vh solid;
   rotate: 45deg;
@@ -48,14 +48,15 @@ main {
 }
 
 #doubleLineCircle {
-  width: 250px;
+  width: 35vh;
+  height: 10vh;;
 }
 
 .line {
-  margin: 15px;
-  width: 100px;
-  height: 15px;
-  border: 3px solid;
+  margin: 2vh 4vh;
+  width: 10vh;
+  height: 2vh;
+  border: 0.5vh solid;
   background: blue;
 }
 
@@ -64,10 +65,10 @@ main {
 }
 
 #circle {
-  width: 75px;
-  height: 75px;
+  width: 9vh;
+  height: 9vh;
   border-radius: 100%;
-  border: 3px solid;
+  border: 0.5vh solid;
   background: cyan;
 }
 
