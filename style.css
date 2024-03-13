@@ -1,19 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: green;
+  width: 100%;
+  heigth: 100%;
 }
 
 main {
-  padding: 25px;
-  display: flex;
-  justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: column;
+   border: 3px solid;
 }
 
 .item {
-  width: 300px;
-  height: 250px;
   margin: 15px;
   border: 3px solid;
-  float: left;
 }
 
 #topBar {
@@ -22,10 +27,11 @@ main {
 }
 
 #doubleBox {
+  width: 210px;
   padding: 10px;
-  width: 200px;
 }
 
+/*Try flex later*/
 .redBox {
   width: 95px;
   height: 95px;
@@ -43,13 +49,13 @@ main {
 }
 
 #doubleLineCircle {
-  height: 150px;
+  width: 250px;
 }
 
 .line {
   margin: 15px;
   width: 100px;
-  height: 10px;
+  height: 15px;
   border: 3px solid;
   background: blue;
 }
@@ -67,8 +73,8 @@ main {
 }
 
 #abcBox {
-  width: 200px;
-  height: 400px;
+  width: 300px;
+  height: 500px;
   background: white;
 }
 
@@ -76,4 +82,16 @@ main {
   text-align: center;
   font-family: Impact;
   font-size: 30px;
+}
+
+@media screen and (min-width: 583px) and (max-width: 900px) {
+  #abcBox {
+    background: red;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  #abcBox {
+    background: blue;
+  }
 }
