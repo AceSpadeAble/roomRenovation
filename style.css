@@ -1,34 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: green;
+  height: 100vh;
 }
 
 main {
-  padding: 25px;
-  
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   flex-direction: column;
+   border: 3px solid;
 }
 
 .item {
-  width: 300px;
-  height: 250px;
-  margin: 15px;
-  border: 3px solid;
+  margin: 2vh;
 }
 
 #topBar {
-  height: 25px;
+  height: 5vh;
   background: brown;
 }
 
 #doubleBox {
-  padding: 10px;
-  width: 200px;
+  width: 20vh;
+  padding: 0.75vh;
 }
 
+/*Try flex later*/
 .redBox {
-  width: 95px;
-  height: 95px;
+  width: 9.5vh;
+  height: 9.5vh;
   background: red;
-  border: 3px solid;
+  border: 0.25vh solid;
   rotate: 45deg;
 }
 
@@ -41,14 +47,15 @@ main {
 }
 
 #doubleLineCircle {
-  height: 150px;
+  width: 25vh;
+  height: 10vh;
 }
 
 .line {
-  margin: 15px;
-  width: 100px;
-  height: 10px;
-  border: 3px solid;
+  margin: 1.5vh 1vh 1.5vh 0 ;
+  width: 10vh;
+  height: 1.5vh;
+  border: 0.25vh solid;
   background: blue;
 }
 
@@ -57,21 +64,35 @@ main {
 }
 
 #circle {
-  width: 75px;
-  height: 75px;
+  width: 9vh;
+  height: 9vh;
   border-radius: 100%;
-  border: 3px solid;
+  border: 0.25vh solid;
   background: cyan;
 }
 
 #abcBox {
-  width: 200px;
-  height: 500px;
-  background: purple;
+  width: 18vh;
+  height: 40vh;
+  margin-left: 4vh;
+  border: 0.25vh solid;
+  background: white;
 }
 
 .item p {
   text-align: center;
   font-family: Impact;
-  font-size: 30px;
+  font-size: 3vh;
+}
+
+@media screen and (min-width: 583px) and (max-width: 900px) {
+  #abcBox {
+    background: red;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  #abcBox {
+    background: blue;
+  }
 }
