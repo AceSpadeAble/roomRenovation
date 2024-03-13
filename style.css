@@ -5,14 +5,12 @@
 body {
   background-color: green;
   margin: 0;
-  height: 100vh;
-  border-bottom: 0.25vh solid;
 }
 
 main {
    display: flex;
-   justify-content: space-between;
    flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 .item {
@@ -22,7 +20,7 @@ main {
 #topBar {
   height: 5vh;
   border: 0.25vh solid;
-  background: brown;
+  background: rgb(136, 124, 59);
 }
 
 #doubleBox {
@@ -31,8 +29,8 @@ main {
 }
 
 .flexContainer {
-  height: 45vh;
-  width: 60%;
+  height: 60%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -55,13 +53,13 @@ main {
 }
 
 #doubleLineCircle {
-  width: 25vh;
+  width: 21vh;
   height: 10vh;
 }
 
 .line {
   margin: 1.5vh 1vh 1.5vh 0 ;
-  width: 10vh;
+  width: 9vh;
   height: 1.5vh;
   border: 0.25vh solid;
   background: blue;
@@ -76,12 +74,12 @@ main {
   height: 9vh;
   border-radius: 100%;
   border: 0.25vh solid;
-  background: cyan;
+  background: rgb(88, 145, 145);
 }
 
 #abcBox {
-  width: 17.5vh;
-  height: 40vh;
+  width: 16vh;
+  height: 45vh;
   margin-left: 4vh;
   border: 0.25vh solid;
   background: white;
@@ -89,7 +87,7 @@ main {
 
 .item p {
   text-align: center;
-  font-family: Impact;
+  font-family: sans-serif;
   font-size: 3vh;
 }
 
@@ -97,11 +95,11 @@ main {
   .flexContainer {
     flex-flow: column wrap;
     align-content: flex-start;
-    width: 50%;
+    width: 40%;
   }
 
   #abcBox {
-    background: red;
+    background: rgb(143, 60, 60);
   }
 }
 
