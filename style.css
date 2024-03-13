@@ -4,8 +4,7 @@
 
 body {
   background-color: green;
-  width: 100%;
-  heigth: 100%;
+  height: 100vh;
 }
 
 main {
@@ -22,21 +21,21 @@ main {
 }
 
 #topBar {
-  height: 25px;
+  height: 5vh;
   background: brown;
 }
 
 #doubleBox {
-  width: 210px;
-  padding: 10px;
+  width: 25vh;
+  padding: 0.5vh;
 }
 
 /*Try flex later*/
 .redBox {
-  width: 95px;
-  height: 95px;
+  width: 12vh;
+  height: 12vh;
   background: red;
-  border: 3px solid;
+  border: 0.5vh solid;
   rotate: 45deg;
 }
 
